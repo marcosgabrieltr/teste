@@ -1,0 +1,46 @@
+@font-face {
+	font-family: "AntiqueCherry-PersonalUse";
+	src: url("AntiqueCherry-PersonalUse.woff") format("woff"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: regular;
+}
+
+body {
+	background-image: url("IMG_4035.jpg");
+	background-size: cover;
+}
+
+.circulo {
+	background-image: url("Untitled.png");
+	background-size: cover;
+	border-radius: 50%;
+	width: 450px;
+	height: 450px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-225px; /* Metade do valor da Largura */
+	margin-top:-225px; /* Metade da valor da Altura */
+	position:absolute;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.circulo:active {
+	width: 500px;
+	height: 500px;
+	margin-left:-250px; /* Metade do valor da Largura */
+	margin-top:-250px; /* Metade da valor da Altura */
+}
+
+h1{
+
+	padding:20px;
+	color:white;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'AntiqueCherry-PersonalUse', Arial, Tahoma, Sans-serif;
+}
+
+
